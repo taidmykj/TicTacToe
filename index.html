@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>TIC TAC TOE GAME | BY TJ</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Taid Mykj">
+  <link rel="stylesheet" href="/storage/emulated/0/Documents/My_Projects/Tic_Tac_Toe_TJ/style.css">
+</head>
+<script type="text/javascript" src="/storage/emulated/0/Documents/My_Projects/Tic_Tac_Toe_TJ/index3.js"></script>
+<body>
+  <p class="title">TIC TAC TOE GAME</p>
+  <div id="table">
+  <table>
+    <tr>
+      <td id="zero" onclick="play('0', 'zero')"></td>
+      <td id="one" onclick="play('1', 'one')"></td>
+      <td id="two" onclick="play('2', 'two')"></td>
+    </tr>
+    <tr>
+      <td id="three" onclick="play('3', 'three')"></td>
+      <td id="four" onclick="play('4', 'four')"></td>
+      <td id="five" onclick="play('5', 'five')"></td>
+    </tr>
+    <tr>
+      <td id="six" onclick="play('6', 'six')"></td>
+      <td id="sev" onclick="play('7', 'sev')"></td>
+      <td id="eight" onclick="play('8', 'eight')"></td>
+    </tr>
+  </table>
+  </div>
+  <div id="win"></div>
+  <div class="rules">
+    <h1>Tips:</h1>
+    <ul>
+      <li>Tap any space when <i>'no more'</i> space left.</li>
+      <li>Spaces will be cleared after getting a winner.</li>
+      <li>After the first win, <i>"loser"</i> starts next; <br>
+        - if player 'X' started and won the next player is '0' and vice versa.
+      </li>
+    </ul>
+    <h1>Rules:</h1>
+    <ul>
+      <li>Winning when your friend has no more space board is <strong>NOT</strong> a win.</li>
+      <li><strong>NO</strong> repeating of the occupied board.</li>
+    </ul>
+    <h6>Regards: <a title="The Author" href="">TAID MYK J</a></h6>
+  </div>
+  <div id="win">
+    
+  </div>
+  </body>
+</html>
